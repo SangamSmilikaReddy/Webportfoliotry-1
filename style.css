@@ -15,10 +15,16 @@ body{
 
 }
 .hero img{
+    max-width: min-content;
     margin-left: 0;
     width: 500px;
     height: 500px;
+    border-radius: 8px;
 }
+.hero img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
 nav{
     display: flex;
     width: 90%;
@@ -67,10 +73,8 @@ span{
     padding-bottom: 20px;
     margin-left: 8%;
 }
-.home p a{
-    color: #555;
-    padding-bottom: 20px;
-    margin-left: 8%;
+.home p a:hover{
+    color: orange;
 }
 .con{
     display: flex;
@@ -101,7 +105,7 @@ span{
     margin-bottom: 20px;
 }
 .intrest{
-    background-color: orange;
+    background-color: rgb(255, 115, 0);
     padding: 40px;
     border-top: 5px solid  rgb(0, 0, 0);
     border-radius: 5px;
@@ -163,9 +167,11 @@ span{
     margin-top: 8%;
 }
 footer{
-    text-align: center;
-    margin-top: 8%;
+    background-color: white;
     padding: 30px;
+    border-radius: 5px;
+    margin: 18%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05), 0 6px 6px rgba(0,0,0,0.1);
 }
 .CC{
     padding-bottom: 20px;
@@ -174,6 +180,9 @@ footer{
 
 footer p{
     color: hsl(229, 6%, 66%);
+}
+.up {
+    margin-top: 10px;
 }
 
 
